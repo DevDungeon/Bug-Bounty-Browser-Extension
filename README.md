@@ -1,6 +1,7 @@
-# Base Chrome Plugin Template
+# ChromeExtensionBase
 
-## Description
-Chrome extension template ready for development with jQuery and Bootstrap
+Chrome extension ready for development with jQuery and Bootstrap
 
-nanodano@devdungeon.com - 2014-04-10
+## Contact
+
+nanodano@devdungeon.com
