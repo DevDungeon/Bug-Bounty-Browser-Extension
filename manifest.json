@@ -1,26 +1,32 @@
 {
   "manifest_version": 2,
 
-  "name": "Chrome Extension Template",
+  "name": "Web Browser Extension Template",
   "description": "Extension base template ready for development",
   "version": "1.0",
 
-  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  // "options_page": "options.html", // Chrome only, full page
 
   "permissions": [
     //"http://example.com",
-    //"storage",
+    "storage",
     //"tabs"
     "notifications"
   ],
 
-  //"omnibox": { "keyword" : "" },
+  
+
+  "omnibox": { "keyword" : "nano" },
 
   "browser_action": {
     "default_icon": "img/icon.png",
     "default_popup": "index.html"
   }
 
-  //"update_url": "http://path.to/autoupdater_updates.xml",
+  //"update_url": "http://path.to/autoupdater_updates.xml" // Chrome
 
 }
