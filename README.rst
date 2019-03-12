@@ -1,9 +1,8 @@
-=============================
-Web Browser Extension Example
-=============================
+================
+Bug Bounty Buddy
+================
 
-Simple cross-browser extension ready for development with jQuery and Bootstrap.
-Test in Firefox, Chrome, and Chromium.
+Browser extension to assist with bug bounty hunting.
 
 
 Running & Testing
