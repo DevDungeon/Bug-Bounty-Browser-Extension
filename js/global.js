@@ -15,8 +15,6 @@ $(document).ready(function () {
     // Look for query parameters in URLs
     browser.tabs.query({})
         .then(tabs => {
-
-            message += "<h2>Query parameters found</h2>";
             tabs.forEach((tab) => {
                 let url = new URL(tab.url);
                 // TODO turn in to a table
@@ -25,7 +23,7 @@ $(document).ready(function () {
                     message += param[0] + ":" +
                         param[1] + "<br />"
                 }
-                document.getElementById('main-content').innerHTML = message;
+                document.getElementById('query-params').innerHTML = message;
             })
         });
 
