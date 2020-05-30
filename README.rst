@@ -4,6 +4,8 @@ Bug Bounty Buddy
 
 Browser extension to assist with bug bounty hunting.
 
+Live coding of this project: https://www.youtube.com/watch?v=sozpzlzhiek
+
 
 Running & Testing
 =================
